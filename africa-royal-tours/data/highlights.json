@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Reiseidee im Fokus",
+    "title": "Tansania & Kenia aus der Luft",
+    "description": "Eine 11-tägige Flugsafari durch Serengeti, Ngorongoro und Masai Mara – mit ausgewählten Lodges als Ausgangspunkt für die individuelle Beratung.",
+    "image": "https://www.africa-royal-tours.de/media/_processed_/3/e/csm_flugsafari-tansania-kenia-kleinflugzeug-header_650b49a7e8.jpg",
+    "alt": "Kleinflugzeug als Teil einer Flugsafari in Tansania und Kenia",
+    "url": "reisen/tansania-fly-in-safari.html",
+    "linkText": "Flugsafari ansehen"
+  },
+  {
+    "label": "Sternenhimmel & Weite",
+    "title": "Namibia Sternsafari",
+    "description": "Eine Mietwagenreise mit weitem Landschaftserleben und Nächten unter dem namibischen Sternenhimmel – Route und Aufenthalte individuell abstimmen.",
+    "image": "https://www.africa-royal-tours.de/media/_processed_/4/3/csm_nambia-reise-dead-vlei-sternenhimmel-nacht-0_4869adfd7f.jpg",
+    "alt": "Sternenhimmel über einer Landschaft in Namibia",
+    "url": "reisen/namibia-reise-sternsafari.html",
+    "linkText": "Namibia-Reise ansehen"
+  },
+  {
+    "kind": "fantrip",
+    "label": "Fantrip · 16.12.2025",
+    "title": "Franziska unterwegs in Südafrika",
+    "description": "Die Franziska berichtet von ihrer persönlichen Reise entlang der Garden Route – mit Safari-Erlebnissen, Küsten und ausgewählten Lodges.",
+    "image": "https://www.africa-royal-tours.de/media/_processed_/b/f/csm_shutterstock-2354928959_a006c9d88a.webp",
+    "alt": "Kapstadt auf dem Südafrika-Reisebericht entlang der Garden Route",
+    "url": "inspiration/franziska-suedafrika.html",
+    "linkText": "Reisebericht lesen"
+  }
+]

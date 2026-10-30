@@ -1,0 +1,29 @@
+[
+  {
+    "label": "Wellness & Erholung",
+    "title": "Zwei Tage abschalten, zwei Tage entdecken",
+    "description": "Eine kurze Auszeit mit komfortablem Hotel als Rückzugsort und Ausgangspunkt – passend zu Ihrem Zeitfenster geplant.",
+    "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=82",
+    "alt": "Wellnessbereich für eine erholsame Kurzreise",
+    "url": "qr/wellness.html",
+    "linkText": "Wellness-Auszeit planen"
+  },
+  {
+    "label": "Wein, Genuss & Feste",
+    "title": "Eine Region mit allen Sinnen erleben",
+    "description": "Weingüter, regionale Küche, Spirituosen oder ein Fest – saisonale Termine und Verfügbarkeiten werden vor dem Angebot geprüft.",
+    "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=900&q=82",
+    "alt": "Wein und Weinberg als Kulisse für eine Genussreise",
+    "url": "qr/genuss.html",
+    "linkText": "Genuss-Auszeit planen"
+  },
+  {
+    "label": "Kultur & Veranstaltung",
+    "title": "Rhein in Flammen",
+    "description": "Ein Veranstaltungsanlass für eine kurze Reise mit passendem Ausgangspunkt. Termin, Unterkunft und Leistungen werden für das Reisejahr individuell bestätigt.",
+    "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=82",
+    "alt": "Abendliche Kulisse in einer europäischen Region",
+    "url": "qr/rhein-in-flammen.html",
+    "linkText": "Reiseidee entdecken"
+  }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.asien-special-tours.de/en-us/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.asien-special-tours.de/en-us/"/>
+  </url>
+  <url>
+    <loc>https://www.asien-special-tours.de/en-us/reisen.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/reisen.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.asien-special-tours.de/en-us/reisen.html"/>
+  </url>
+  <url>
+    <loc>https://www.asien-special-tours.de/en-us/ziele.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/ziele.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.asien-special-tours.de/en-us/ziele.html"/>
+  </url>
+  <url>
+    <loc>https://www.asien-special-tours.de/en-us/philosophie.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/philosophie.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.asien-special-tours.de/en-us/philosophie.html"/>
+  </url>
+  <url>
+    <loc>https://www.asien-special-tours.de/en-us/kontakt.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.asien-special-tours.de/en-us/kontakt.html"/>
+  </url>
+  <url>
+    <loc>https://www.asien-special-tours.de/en-us/ast-connector.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/ast-connector.html"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.asien-special-tours.de/en-us/ast-connector.html"/>
+  </url>
+  <url>
+    <loc>https://www.asien-special-tours.de/en-us/israel-luxusreisen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/israel-luxusreisen/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://www.asien-special-tours.de/en-us/israel-luxusreisen/"/>
+  </url>
+</urlset>

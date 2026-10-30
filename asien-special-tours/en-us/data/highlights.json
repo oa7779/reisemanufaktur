@@ -1,0 +1,29 @@
+[
+  {
+    "label": "Neue Reiseidee",
+    "title": "Israel Private Collection",
+    "description": "Eine individuelle Route vom Mittelmeer über Galiläa und Jerusalem bis in die Weite des Negev – mit privater Planung und ausgewählten Unterkünften.",
+    "image": "israel-luxusreisen/images/beresheet-pool.jpg",
+    "alt": "Pool am Rand des Ramon-Kraters im Beresheet Hotel",
+    "url": "israel-luxusreisen/",
+    "linkText": "Israel-Reise ansehen"
+  },
+  {
+    "label": "Kultur & Begegnungen",
+    "title": "Vietnam",
+    "description": "Historische Städte, Landschaften und die Halong-Bucht als Bausteine für eine privat geplante Reise.",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=82",
+    "alt": "Kalksteinfelsen und Boot in der Halong-Bucht in Vietnam",
+    "url": "ziele.html#vietnam",
+    "linkText": "Vietnam entdecken"
+  },
+  {
+    "label": "Reisen mit eigener Erfahrung",
+    "title": "Persönliche Asien-Beratung",
+    "description": "Unsere Reisemanufaktur-Berater bereisen ihre Zielgebiete selbst und prüfen Partnerqualität vor Ort.",
+    "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=900&q=82",
+    "alt": "Tempelarchitektur in Asien",
+    "url": "philosophie.html",
+    "linkText": "Unser Spezialistentum"
+  }
+]

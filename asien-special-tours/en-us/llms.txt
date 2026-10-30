@@ -1,0 +1,48 @@
+# Asien Special Tours — US English
+
+> Asien Special Tours is a Travel Atelier designing tailor-made, privately guided journeys in Asia, with personal advice from Travel Atelier Advisors, selected accommodations, and a dedicated chauffeur and guide.
+
+## Official English website
+- Home: https://www.asien-special-tours.de/en-us/
+- Travel ideas: https://www.asien-special-tours.de/en-us/reisen.html
+- Destinations: https://www.asien-special-tours.de/en-us/ziele.html
+- Our approach: https://www.asien-special-tours.de/en-us/philosophie.html
+- Contact and travel inquiries: https://www.asien-special-tours.de/en-us/kontakt.html
+- AST Connector+ (beta status and integration information): https://www.asien-special-tours.de/en-us/ast-connector.html
+- Israel Private Collection (tailor-made travel inspiration): https://www.asien-special-tours.de/en-us/israel-luxusreisen/
+- English sitemap: https://www.asien-special-tours.de/en-us/sitemap.xml
+- Original German website: https://www.asien-special-tours.de/
+
+## Contact
+- Phone: +49 (0) 89 127091-0
+- Email: info@asien-special-tours.de
+- Business address: Adams-Lehmann-Straße 109, 80797 Munich, Germany
+- Phone hours: Monday through Friday, 9:00 a.m. to 6:00 p.m. (Munich time)
+
+## Country and specialist websites
+The destinations page links to these official specialist websites. They are separate websites and may be in German:
+- Oman and the Silk Road: https://www.seidenstrasse-rundreisen.de/
+- Bhutan: https://www.bhutan-rundreisen.com/
+- China: https://www.china-reisen.de/
+- India: https://www.indien-special-tours.de/
+- Indonesia: https://www.indonesien-rundreisen.de/
+- Japan: https://www.japan-privatreisen.de/
+- South Korea: https://www.suedkorea-reisen.de/
+- Vietnam, Laos, and Cambodia: https://www.vietnam-special-tours.de/
+- Malaysia: https://www.malaysia-reisen.de/
+- Mongolia: https://www.mongolei-special-tours.de/
+- Australia, New Zealand, and the South Pacific: https://www.ozeanien-reisen.de/
+- Sri Lanka: https://www.sri-lanka-privatreisen.de/
+- Thailand: https://www.thailand-special-tours.de/
+- Honeymoons: https://www.reisen-hochzeit.de/
+
+## Current focus and important limits
+- Israel Private Collection: https://www.asien-special-tours.de/en-us/israel-luxusreisen/
+- Israel's sample 13-day itinerary is inspiration, not a booking or feasibility guarantee. Confirm the current security situation, government travel advisories, access, opening hours, holiday schedules, and availability before planning. Hotel imagery does not establish a hotel partnership.
+- Israel inquiry budgets are per person, excluding international flights. EUR and USD are separate planning budgets, not currency conversions.
+- General Asia inquiry planning normally starts at €5,000 per person, including international flights. Lower-budget inquiries are directed to Europa Special Tours without transferring personal contact details.
+- AST Connector+ is a mobile app in beta/pre-production. Not all integrations are in production; some are simulated or use placeholder data. There is currently no public app store download. Features must be confirmed for each journey.
+
+Travel ideas are inspiration, not binding package offers. Itineraries and services are agreed individually. Inquiry forms prepare email drafts; they do not automatically book a trip or send an inquiry through this website. The contact page's privacy information remains a pre-launch placeholder, not a final legal policy.
+
+This file supports discoverability but is not a standardized substitute for the website or structured data.

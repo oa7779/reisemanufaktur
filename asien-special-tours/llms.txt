@@ -1,0 +1,41 @@
+# Asien Special Tours
+
+> Asien Special Tours plant individuelle, privat geführte Asienreisen mit persönlicher Beratung, ausgewählten Unterkünften sowie eigenem Chauffeur und Reiseleitung.
+
+## Offizielle Website
+- Startseite: https://www.asien-special-tours.de/
+- Reiseideen: https://www.asien-special-tours.de/reisen.html
+- Reiseziele: https://www.asien-special-tours.de/ziele.html
+- Unsere Haltung: https://www.asien-special-tours.de/philosophie.html
+- Kontakt und Reiseanfrage: https://www.asien-special-tours.de/kontakt.html
+- AST Connector+ (Beta-Status und Integrationshinweise): https://www.asien-special-tours.de/ast-connector.html
+- Israel Private Collection (individuelle Reiseinspiration): https://www.asien-special-tours.de/israel-luxusreisen/
+
+## Kontakt
+- Telefon: +49 (0) 89 127091-0
+- E-Mail: info@asien-special-tours.de
+- Geschäftsadresse: Adams-Lehmann-Straße 109, 80797 München
+- Telefonische Erreichbarkeit: Montag bis Freitag, 09:00 bis 18:00 Uhr
+
+## Länder- und Spezialportale
+Die folgenden offiziellen Spezialportale werden auf der Seite Reiseziele verlinkt:
+- Oman und Seidenstraße: https://www.seidenstrasse-rundreisen.de/
+- Bhutan: https://www.bhutan-rundreisen.com/
+- China: https://www.china-reisen.de/
+- Indien: https://www.indien-special-tours.de/
+- Indonesien: https://www.indonesien-rundreisen.de/
+- Japan: https://www.japan-privatreisen.de/
+- Südkorea: https://www.suedkorea-reisen.de/
+- Vietnam sowie Laos und Kambodscha: https://www.vietnam-special-tours.de/
+- Malaysia: https://www.malaysia-reisen.de/
+- Mongolei: https://www.mongolei-special-tours.de/
+- Australien, Neuseeland und Südpazifik: https://www.ozeanien-reisen.de/
+- Sri Lanka: https://www.sri-lanka-privatreisen.de/
+- Thailand: https://www.thailand-special-tours.de/
+- Hochzeitsreisen: https://www.reisen-hochzeit.de/
+
+## Aktuelle Schwerpunkte
+- Israel Private Collection: https://www.asien-special-tours.de/israel-luxusreisen/
+- AST Connector+ ist eine mobile App im Beta-/Vorserienstand. Nicht alle Integrationen sind produktiv; es gibt derzeit keinen öffentlichen Store-Download.
+
+Die Reiseideen sind Inspiration, keine verbindlichen Pauschalangebote. Reiseverläufe und Leistungen werden individuell abgestimmt. Diese Datei unterstützt die Auffindbarkeit, ist aber kein standardisierter Ersatz für die Website oder strukturierte Daten.

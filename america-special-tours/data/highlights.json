@@ -1,0 +1,30 @@
+[
+  {
+    "label": "Reiseidee im Fokus",
+    "title": "Chile – Der Glanz der Sterne",
+    "description": "Eine Reiseinspiration für den klaren Nachthimmel Chiles, die Atacama-Wüste und besondere Beobachtungsorte. Die Route wird individuell abgestimmt.",
+    "image": "https://www.america-special-tours.de/media/_processed_/0/8/csm_chile-reisen-header-torres-del-paine_8a166c15f4.jpg",
+    "alt": "Landschaft Chiles als Einstieg in eine Reiseidee unter dem Sternenhimmel",
+    "url": "reisen/chile-astronomie-reise.html",
+    "linkText": "Chile-Reise ansehen"
+  },
+  {
+    "label": "Natur & Komfort",
+    "title": "Costa Rica auf besondere Weise",
+    "description": "Eine veröffentlichte Reiseidee mit Naturerlebnissen, ausgewählten Eco-Lodges und privaten Charterflügen – vorbehaltlich der Prüfung im individuellen Angebot.",
+    "image": "https://www.america-special-tours.de/media/_processed_/1/d/csm_costa-rica-luxusreise-lapa-rios-lodge-0_bf4cdaab40.jpg",
+    "alt": "Lapa Rios Lodge in Costa Rica",
+    "url": "reisen/costa-rica-luxusreise.html",
+    "linkText": "Costa-Rica-Reise ansehen"
+  },
+  {
+    "kind": "fantrip",
+    "label": "Fantrip · 10.12.2025",
+    "title": "Katharina in Kolumbien & am Amazonas",
+    "description": "Katharina Reichert Katharina Reichert berichtet von Bogotá, Medellín, La Macarena, Cartagena und einer Amazonas-Kreuzfahrt in Peru.",
+    "image": "https://www.america-special-tours.de/media/_processed_/f/0/csm_kolumbien-reise-anden-karibik_f5bdca8f08.jpg",
+    "alt": "Landschaft und Karibikküste Kolumbiens",
+    "url": "inspiration/katharina-kolumbien.html",
+    "linkText": "Reisebericht lesen"
+  }
+]

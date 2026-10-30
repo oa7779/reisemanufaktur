@@ -1,0 +1,50 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Meta-WebIndexer
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://www.africa-royal-tours.de/sitemap.xml
+Sitemap: https://www.africa-royal-tours.de/en-us/sitemap.xml

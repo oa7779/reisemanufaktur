@@ -1,0 +1,66 @@
+# Africa Royal Tours
+
+> Individuelle, privat geplante Reisen mit persönlicher Beratung. Der digitale Katalog umfasst 50 veröffentlichte Reiseideen.
+
+## Website
+- Startseite: https://www.africa-royal-tours.de/
+- Reisekatalog: https://www.africa-royal-tours.de/katalog.html
+- Reiseziele: https://www.africa-royal-tours.de/ziele.html
+- Persönliche Reiseanfrage: https://www.africa-royal-tours.de/kontakt.html
+
+## Veröffentliche Reiseideen
+- [Best of Marokko - Ein orientalisches Märchen](https://www.africa-royal-tours.de/reisen/best-of-marokko-reise.html)
+- [Botswana & Simbabwe Reise - Wildes Afrika](https://www.africa-royal-tours.de/reisen/botswana-simbabwe-rundreise.html)
+- [Botswana und Simbabwe Rundreise - Natur Pur](https://www.africa-royal-tours.de/reisen/botswana-okavango-reise.html)
+- [Flugsafari durch Namibia](https://www.africa-royal-tours.de/reisen/namibia-rundreise.html)
+- [Flugsafari Tansania & Kenia - Über den Weiten Afrikas](https://www.africa-royal-tours.de/reisen/tansania-fly-in-safari.html)
+- [Im Herzen Kenias - Wo Luxus auf Abenteuer trifft](https://www.africa-royal-tours.de/reisen/kenia-rundreise.html)
+- [Inselhopping Mauritius, Rodrigues & Madagaskar - Drei Inseln, drei Welten](https://www.africa-royal-tours.de/reisen/inselhopping-mauritius-rodrigues-madagaskar.html)
+- [Kapstadt und Krüger Park - Unterwegs auf den schönsten Routen Südafrikas](https://www.africa-royal-tours.de/reisen/suedafrika-rundreise-kapstadt-gardenroute-kruegerpark.html)
+- [Kenia Reise - Kenias verborgene Schätze](https://www.africa-royal-tours.de/reisen/kenia-reise.html)
+- [Kenia und Tansania Reise - Wildlife in Kenia und Tansania](https://www.africa-royal-tours.de/reisen/kenia-tansania-safari.html)
+- [Madagaskar Reise – Im Reich der wilden Schönheit](https://www.africa-royal-tours.de/reisen/madagaskar-reise.html)
+- [Marokko Golfreise - Golfen vom Feinsten in Marokko](https://www.africa-royal-tours.de/reisen/marokko-golfreise.html)
+- [Marokko Luxusreise - Königsstädte Marokkos](https://www.africa-royal-tours.de/reisen/marokko-luxusreise.html)
+- [Marokko Luxusreise - Meeresbrise Marokko](https://www.africa-royal-tours.de/reisen/marokko-reise.html)
+- [Marokko Reise - Die wilde Schönheit Marokkos](https://www.africa-royal-tours.de/reisen/marokko-rundreise.html)
+- [Mauritius Reise - Tropische Vielfalt und zeitlose Eleganz](https://www.africa-royal-tours.de/reisen/mauritius-reise.html)
+- [Mietwagen Rundreise: Südafrika vom Feinsten](https://www.africa-royal-tours.de/reisen/suedafrika-mietwagen-rundreise.html)
+- [Mietwagen Rundreise: Südafrikas Gardenroute und Swasiland](https://www.africa-royal-tours.de/reisen/suedafrika-eswatini-selbstfahrer-rundreise.html)
+- [Mietwagenrundreise Faszination Namibia](https://www.africa-royal-tours.de/reisen/namibia-mietwagen-rundreise.html)
+- [Namibia & Botswana Rundreise – Länder voller Magie](https://www.africa-royal-tours.de/reisen/namibia-botswana-rundreise.html)
+- [Namibia Mietwagenreise - Sternsafari & Wanderträume](https://www.africa-royal-tours.de/reisen/namibia-reise-sternsafari.html)
+- [Namibia, Botswana & Simbabwe Rundreise – Zwischen Wüste, Delta und Viktoriafällen](https://www.africa-royal-tours.de/reisen/namibia-botswana-simbabwe-mietwagen-rundreise.html)
+- [Ruanda Deluxe - Im Land der 1000 Hügel](https://www.africa-royal-tours.de/reisen/ruanda-reise.html)
+- [Safari Pur - Naturwunder und Wildnis](https://www.africa-royal-tours.de/reisen/kenia-luxusreisen.html)
+- [Sambia Reise - Best Of Sambia](https://www.africa-royal-tours.de/reisen/sambia-safari.html)
+- [Sambia Rundreise - Donnerndes Wasser](https://www.africa-royal-tours.de/reisen/sambia-rundreise.html)
+- [Seychellen Hochzeitsreise - Inselflittern im Indischen Ozean](https://www.africa-royal-tours.de/reisen/hochzeitsreise.html)
+- [Seychellen Luxusreise - Zwischen Traumstränden und Granitfelsen](https://www.africa-royal-tours.de/reisen/seychelllen-luxusreise.html)
+- [Simbabwe Rundreise - Magisches Simbabwe](https://www.africa-royal-tours.de/reisen/simbabwe-reise.html)
+- [Südafrika & Namibia Reise – Wildnis, Wein und Wüste](https://www.africa-royal-tours.de/reisen/suedafrika-namibia-rundreise.html)
+- [Südafrika Luxusreise - Golferträume und Gaumenfreuden](https://www.africa-royal-tours.de/reisen/suedafrika-golf-reise.html)
+- [Südafrika Mietwagen Rundreise: Naturgenuss entlang der Route 62](https://www.africa-royal-tours.de/reisen/suedafrika-mietwagen-rundreise-route-62.html)
+- [Südafrika Mietwagen Rundreise: Wellness, Wein und wilde Tiere](https://www.africa-royal-tours.de/reisen/suedafrika-mietwagen-reise.html)
+- [Südafrika Rundreise - Afrikas Tierwelt vereint mit nostalgischem Luxus](https://www.africa-royal-tours.de/reisen/rovosrail.html)
+- [Südafrika und Mauritius Reise: Safarimagie und Strandjuwelen](https://www.africa-royal-tours.de/reisen/suedafrika-mauritius-reise.html)
+- [Südafrika und Mosambik Hochzeitsreise - Safari & Honeymoon](https://www.africa-royal-tours.de/reisen/suedafrika-hochzeitsreise.html)
+- [Südafrika, Simbabwe & Botswana Rundreise - Die Perlen Afrikas](https://www.africa-royal-tours.de/reisen/rundreise-suedafrika-simbabwe-botswana.html)
+- [Südafrika, Simbabwe und Botswana Reise: Traumpfade durch das südliche Afrika](https://www.africa-royal-tours.de/reisen/suedafrika-simbabwe-botswana-rundreise.html)
+- [Tansania Hochzeitsreise - Flittern mit Simba & Co.](https://www.africa-royal-tours.de/reisen/tansania-hochzeitsreise.html)
+- [Tansania Reise - Safari & Meer](https://www.africa-royal-tours.de/reisen/tansania-rundreise.html)
+- [Tansania Reise - Tansanias Schatzkiste](https://www.africa-royal-tours.de/reisen/tansania-reise.html)
+- [Tansania Rundreise - Der aufregende Süden Tansanias](https://www.africa-royal-tours.de/reisen/tansania-rundreise-mit-sansibar.html)
+- [Uganda & Ruanda - Begegnungen mit den Berggorillas](https://www.africa-royal-tours.de/reisen/uganda-rundreise-berggorillas.html)
+- [Uganda Reise - Die Highlights Ugandas](https://www.africa-royal-tours.de/reisen/uganda-naturreise.html)
+- [Uganda Rundreise - Auf unbekannten Pfaden](https://www.africa-royal-tours.de/reisen/uganda-rundreise.html)
+- [Uganda und Tansania Reise - Im Herzen Ostafrikas](https://www.africa-royal-tours.de/reisen/uganda-tansania-reise-ostafrika-rundreise.html)
+- [Zauberhaftes Sambia und Botswana](https://www.africa-royal-tours.de/reisen/sambia-und-botswana-rundreise.html)
+- [Ägypten Luxusreise - Glanz und Erbe des Pharaonenreichs](https://www.africa-royal-tours.de/reisen/aegypten-luxusreise.html)
+- [Ägypten Nilkreuzfahrt - Wasser, Wüste, Wunder](https://www.africa-royal-tours.de/reisen/aegypten-nilkreuzfahrt.html)
+- [Äthiopien Rundreise: Auf historischen Routen](https://www.africa-royal-tours.de/reisen/aethiopien-rundreise.html)
+
+## Reiseberichte aus dem Team
+- [Franziskas Südafrika-Fantrip](https://www.africa-royal-tours.de/inspiration/franziska-suedafrika.html)
+
+Die Reiseideen sind Inspiration, keine verbindlichen Pauschalreiseangebote. Leistungen, Vertragspartner, Verfügbarkeiten und Vertragsverhältnisse werden im konkreten Angebot transparent ausgewiesen.
