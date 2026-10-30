@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="780" viewBox="0 0 1100 780" fill="none">
+  <defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#244b59"/><stop offset="1" stop-color="#101e24"/></linearGradient></defs>
+  <rect width="1100" height="780" rx="30" fill="url(#sky)"/>
+  <g stroke="#476670" stroke-width="2">
+    <path d="M0 600h1100M0 690h1100M550 360 0 780M550 360 250 780M550 360 850 780M550 360 1100 780"/>
+    <path d="M150 560V350h155v210m45 0V260h170v300m80 0V310h145v250m50 0V205h160v355" fill="#1b3642"/>
+    <path d="M180 390h90m-90 40h90m-90 40h90M380 300h100m-100 45h100m-100 45h100m-100 45h100M820 245h90m-90 45h90m-90 45h90"/>
+  </g>
+  <path d="M540 750V625l62-68 100-23" stroke="#e4c691" stroke-width="7" stroke-dasharray="10 10"/>
+  <g stroke="#90d5d4" stroke-width="3"><path d="M65 190v-80h80m810 0h80v80M65 590v80h80m810 0h80v-80"/><circle cx="550" cy="390" r="50"/><path d="M480 390h32m76 0h32m-70-70v32m0 76v32"/></g>
+  <g fill="#18323d" stroke="#7a9eaa" stroke-width="2"><rect x="94" y="66" width="325" height="94" rx="16"/><rect x="685" y="385" width="310" height="115" rx="16"/><rect x="90" y="580" width="310" height="105" rx="16"/></g>
+  <g font-family="Arial, sans-serif">
+    <text x="120" y="104" fill="#e4c691" font-size="17" letter-spacing="2">SPATIAL ASSISTANCE</text>
+    <text x="120" y="138" fill="#fff" font-size="23">Location + Camera + Context</text>
+    <text x="714" y="426" fill="#7ae2db" font-size="18" letter-spacing="2">POINT OF INTEREST</text>
+    <text x="714" y="468" fill="#fff" font-size="25">Discover your surroundings</text>
+    <text x="118" y="621" fill="#e4c691" font-size="18" letter-spacing="2">EXPLORER TOOLS</text>
+    <text x="118" y="660" fill="#fff" font-size="24">Compass / Altitude / GPS</text>
+  </g>
+  <path d="M700 385V338" stroke="#7ae2db" stroke-width="3"/><circle cx="700" cy="328" r="9" fill="#7ae2db"/>
+</svg>

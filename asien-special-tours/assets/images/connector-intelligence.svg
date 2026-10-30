@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1100" viewBox="0 0 1000 1100" fill="none">
+  <defs>
+    <linearGradient id="glass" x1="290" y1="110" x2="760" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#325661"/><stop offset="1" stop-color="#10232c"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#4cc7c8" stop-opacity=".3"/><stop offset="1" stop-color="#4cc7c8" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="500" cy="550" r="490" fill="url(#glow)"/>
+  <g stroke="#61818b" stroke-width="2">
+    <ellipse cx="500" cy="570" rx="440" ry="310" stroke-dasharray="4 14"/>
+    <ellipse cx="500" cy="570" rx="360" ry="450" transform="rotate(32 500 570)" opacity=".5"/>
+    <path d="M170 300 500 420 850 240M130 730 500 610 880 810M500 180V980" stroke-dasharray="5 9"/>
+  </g>
+  <rect x="266" y="106" width="468" height="888" rx="65" fill="#08151c" stroke="#90a6ae" stroke-width="3"/>
+  <rect x="284" y="124" width="432" height="852" rx="50" fill="url(#glass)"/>
+  <rect x="426" y="143" width="148" height="26" rx="13" fill="#08151c"/>
+  <g font-family="Arial, sans-serif">
+    <text x="322" y="223" fill="#e5c692" font-size="16" letter-spacing="3">AST CONNECTOR+</text>
+    <text x="322" y="272" fill="#fff" font-size="34">Travel intelligence.</text>
+    <text x="322" y="305" fill="#c3d9df" font-size="17">Context. Assistance. Connection.</text>
+    <rect x="316" y="340" width="368" height="208" rx="20" fill="#0d222b" stroke="#536f79"/>
+    <path d="m340 489 74-70 66 27 72-66 105 93" stroke="#6b969f" stroke-width="2"/>
+    <path d="M345 472c75-100 176 85 298-76" stroke="#e4c691" stroke-width="4" stroke-dasharray="7 7"/>
+    <circle cx="345" cy="472" r="8" fill="#e4c691"/><circle cx="643" cy="396" r="9" fill="#7ae2db"/>
+    <text x="338" y="378" fill="#c3d9df" font-size="16" letter-spacing="2">YOUR JOURNEY</text>
+    <rect x="316" y="568" width="368" height="182" rx="20" fill="#28444e" stroke="#718f98"/>
+    <circle cx="350" cy="605" r="12" stroke="#7ae2db" stroke-width="2"/>
+    <path d="M345 605h10m-5-5v10" stroke="#7ae2db" stroke-width="2"/>
+    <text x="377" y="612" fill="#fff" font-size="20">AI ASSISTANCE</text>
+    <rect x="337" y="634" width="252" height="12" rx="6" fill="#7c9ba5"/>
+    <rect x="337" y="659" width="300" height="12" rx="6" fill="#526f7a"/>
+    <rect x="337" y="684" width="208" height="12" rx="6" fill="#526f7a"/>
+    <text x="338" y="725" fill="#e5c692" font-size="16">PERSONAL SERVICE</text>
+    <rect x="316" y="774" width="175" height="126" rx="18" fill="#122d37" stroke="#56747f"/>
+    <rect x="509" y="774" width="175" height="126" rx="18" fill="#122d37" stroke="#56747f"/>
+    <path d="M347 809h38m-38 10h26m-26 10h32" stroke="#e5c692" stroke-width="3"/>
+    <text x="337" y="871" fill="#e1eaeb" font-size="17">DOCUMENTS</text>
+    <path d="M550 821c18-21 42-21 60 0m-50 10c12-12 28-12 40 0m-29 10c5-5 13-5 18 0" stroke="#7ae2db" stroke-width="3"/>
+    <text x="530" y="871" fill="#e1eaeb" font-size="17">CONNECTIVITY</text>
+    <g fill="#18343f" stroke="#7798a2" stroke-width="2">
+      <rect x="31" y="254" width="204" height="94" rx="22"/>
+      <rect x="765" y="194" width="204" height="94" rx="22"/>
+      <rect x="22" y="688" width="204" height="94" rx="22"/>
+      <rect x="775" y="770" width="204" height="94" rx="22"/>
+    </g>
+    <g fill="#e6d3ae" font-size="20" text-anchor="middle" letter-spacing="2">
+      <text x="133" y="311">CONTEXT</text><text x="867" y="251">AI</text>
+      <text x="124" y="745">AR / GPS</text><text x="877" y="827">SERVICE</text>
+    </g>
+    <circle cx="170" cy="470" r="7" fill="#7ae2db"/><circle cx="840" cy="565" r="7" fill="#e4c691"/>
+  </g>
+</svg>
