@@ -208,6 +208,9 @@ body[data-brand] .hero::after { background: linear-gradient(90deg, rgba(10,20,18
 .tour-copy p, .tour-copy li { color: #4f5c55; }
 .tour-copy ul { padding-left: 24px; }
 .tour-copy li { margin-bottom: 8px; }
+.planning-guide .lead { color: var(--ink); }
+.planning-guide .crumbs,
+.planning-guide .crumbs a { color: var(--muted); }
 .tour-copy h2 + p { color: var(--ink); font-size: 1.05rem; }
 .campaign-hero { padding: 64px 0 44px; background: var(--brand-tint); }
 .campaign-hero h1 { font-size: clamp(2.4rem, 5vw, 4.2rem); }
