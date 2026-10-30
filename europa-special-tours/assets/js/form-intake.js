@@ -34,6 +34,25 @@
     const route = form.querySelector("[data-budget-routing]");
     const routeLink = form.querySelector("[data-europe-link]");
     const journey = form.querySelector('[name="journey"]');
+    const catalogueJourney = form.querySelector('[name="catalogue_journey"]');
+    if (catalogueJourney) {
+      const requested = params.get("reise");
+      const valid = [...catalogueJourney.options].some((option) => option.value === requested);
+      if (valid) catalogueJourney.value = requested;
+      const error = form.querySelector("[data-trip-selection-error]");
+      error.hidden = !requested || valid;
+      const updateCatalogue = () => {
+        error.hidden = true;
+        document.querySelectorAll(".language-switch a[hreflang]").forEach((anchor) => {
+          const url = new URL(anchor.href);
+          if (catalogueJourney.value) url.searchParams.set("reise", catalogueJourney.value);
+          else url.searchParams.delete("reise");
+          anchor.href = url.href;
+        });
+      };
+      catalogueJourney.addEventListener("change", updateCatalogue);
+      if (valid) updateCatalogue();
+    }
     const required = [...form.querySelectorAll("[required]")];
     if (journey) {
       const selectedThemes = {
@@ -109,6 +128,7 @@
         copy("Die Einordnung dient der Vorbereitung und ist keine automatische Ablehnung.", "This classification is for preparation only and is not an automatic rejection."), "",
         ...(journey ? [copy("Gewählte Reiseidee: ", "Selected travel idea: ") + label("journey"), ""] : []),
         ...(journey ? [journey.selectedOptions[0].dataset.outline, copy("Inspirationsentwurf; Leistungen und Verfügbarkeit sind noch nicht bestätigt.", "Inspiration draft; services and availability have not been confirmed."), ""] : []),
+        ...(catalogueJourney?.value ? [copy("Gewählte Katalogreise: ", "Selected catalog journey: ") + label("catalogue_journey"), ""] : []),
         copy("Name: ", "Name: ") + label("name"),
         copy("E-Mail: ", "Email: ") + label("email"),
         copy("Telefon: ", "Phone: ") + label("phone"),
@@ -126,7 +146,7 @@
         "", copy("Wünsche und Hinweise: ", "Wishes and notes: ") + label("message"), "",
         copy("Datenschutzhinweis wurde bestätigt.", "The privacy notice was acknowledged.")
       ];
-      const subject = [copy("Reiseanfrage", "Travel inquiry"), journey ? label("journey") : form.dataset.site, label("name")].join(" · ");
+      const subject = [copy("Reiseanfrage", "Travel inquiry"), journey ? label("journey") : catalogueJourney?.value ? label("catalogue_journey") : form.dataset.site, label("name")].join(" · ");
       const mailto = `mailto:${form.dataset.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
       const status = form.querySelector(".form-status");
       const message = document.createElement("p");

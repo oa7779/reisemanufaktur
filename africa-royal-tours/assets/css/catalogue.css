@@ -5,7 +5,12 @@
 .catalogue-card[hidden], .catalogue-empty[hidden], .catalogue-note[hidden] { display: none; }
 .catalogue-empty, .catalogue-note { padding: 20px; border: 1px solid var(--line); background: var(--white); color: var(--ink); }
 .catalogue-itinerary { max-width: 1000px; }
-.catalogue-itinerary [data-imported-itinerary] > img { width: 100%; max-height: 620px; object-fit: contain; margin: 32px 0; background: var(--white); }
+.catalogue-itinerary [data-imported-itinerary] img { display: block; width: 100%; height: auto; max-height: 620px; object-fit: contain; margin: 32px 0; background: var(--white); }
+.catalogue-itinerary figure { margin: 32px 0; }
+.catalogue-itinerary a { overflow-wrap: anywhere; }
+.catalogue-itinerary [data-imported-itinerary] a,
+.catalogue-itinerary [data-related-trips] a { text-decoration: underline; text-underline-offset: .2em; }
+.catalogue-itinerary [data-related-trips] { display: grid; gap: 12px; padding-left: 24px; }
 .catalogue-itinerary [data-imported-itinerary] h2, .catalogue-itinerary [data-imported-itinerary] h3 { margin-top: 40px; }
 .catalogue-itinerary table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 24px 0; }
 .catalogue-itinerary td, .catalogue-itinerary th { padding: 10px; border: 1px solid var(--line); }

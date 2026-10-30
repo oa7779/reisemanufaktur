@@ -2,7 +2,8 @@
 [data-travel-inquiry].is-europe-route > .form-submit,
 [data-travel-inquiry].is-europe-route > .form-status,
 [data-travel-inquiry].is-europe-route > .form-note,
-[data-travel-inquiry].is-europe-route > [data-intake-journey] { display: none; }
+[data-travel-inquiry].is-europe-route > [data-intake-journey],
+[data-travel-inquiry].is-europe-route > [data-catalogue-journey] { display: none; }
 [data-intake-journey] { margin-bottom: 28px; }
 [data-intake-budget] { width: 100%; }
 [data-intake-idea-note] { margin-top: 24px; }
