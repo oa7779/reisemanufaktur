@@ -1,0 +1,17 @@
+.catalogue-controls { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; margin-bottom: 24px; }
+.catalogue-controls label { display: grid; gap: 8px; font-size: .9rem; font-weight: 700; }
+.catalogue-controls input, .catalogue-controls select { width: 100%; min-width: 0; min-height: 48px; padding: 10px 12px; border: 1px solid var(--line); background: var(--white); color: var(--ink); }
+.catalogue-card h2 { font-size: 1.65rem; }
+.catalogue-card[hidden], .catalogue-empty[hidden], .catalogue-note[hidden] { display: none; }
+.catalogue-empty, .catalogue-note { padding: 20px; border: 1px solid var(--line); background: var(--white); color: var(--ink); }
+.catalogue-itinerary { max-width: 1000px; }
+.catalogue-itinerary [data-imported-itinerary] > img { width: 100%; max-height: 620px; object-fit: contain; margin: 32px 0; background: var(--white); }
+.catalogue-itinerary [data-imported-itinerary] h2, .catalogue-itinerary [data-imported-itinerary] h3 { margin-top: 40px; }
+.catalogue-itinerary table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 24px 0; }
+.catalogue-itinerary td, .catalogue-itinerary th { padding: 10px; border: 1px solid var(--line); }
+.catalogue-itinerary .inline-cta { margin-top: 40px; }
+.catalogue-source { margin-top: 28px; overflow-wrap: anywhere; }
+.catalogue-source summary { cursor: pointer; font-weight: 700; }
+@media (max-width: 650px) {
+  .catalogue-controls { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,255 @@
+{
+  "checkedAt": "2026-10-30T08:32:06.992801+00:00",
+  "sources": {
+    "china": {
+      "sitemap": "https://www.china-reisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.china-reisen.de/rundreisen/china-luxusreise",
+        "https://www.china-reisen.de/rundreisen/china-reise-yunnan",
+        "https://www.china-reisen.de/rundreisen/china-rundreise",
+        "https://www.china-reisen.de/rundreisen/china-seidenstrasse-rundreise",
+        "https://www.china-reisen.de/rundreisen/china-wanderreise",
+        "https://www.china-reisen.de/rundreisen/naturreise-seidenstrasse",
+        "https://www.china-reisen.de/rundreisen/perlen-chinas",
+        "https://www.china-reisen.de/rundreisen/suedchina-reise",
+        "https://www.china-reisen.de/themenreisen/china-gartenreise",
+        "https://www.china-reisen.de/themenreisen/china-golf-reise",
+        "https://www.china-reisen.de/themenreisen/china-kunstreise",
+        "https://www.china-reisen.de/themenreisen/china-naturreise",
+        "https://www.china-reisen.de/themenreisen/china-reise-kung-fu",
+        "https://www.china-reisen.de/themenreisen/china-zugreise",
+        "https://www.china-reisen.de/themenreisen/familienreise",
+        "https://www.china-reisen.de/themenreisen/ki-reise",
+        "https://www.china-reisen.de/themenreisen/laos-yunnan-rundreise",
+        "https://www.china-reisen.de/themenreisen/winterreise",
+        "https://www.china-reisen.de/themenreisen/wirtschaftsreise",
+        "https://www.china-reisen.de/themenreisen/yangtze-kreuzfahrt",
+        "https://www.china-reisen.de/tibet-taiwan-reisen/bahnreise-tibet",
+        "https://www.china-reisen.de/tibet-taiwan-reisen/taiwan-reise",
+        "https://www.china-reisen.de/tibet-taiwan-reisen/tibet-reise"
+      ]
+    },
+    "japan": {
+      "sitemap": "https://www.japan-privatreisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.japan-privatreisen.de/exklusiv/japan-luxusreise",
+        "https://www.japan-privatreisen.de/exklusiv/japan-rundreise",
+        "https://www.japan-privatreisen.de/exklusiv/reise-japan",
+        "https://www.japan-privatreisen.de/laenderkombi/japan-suedkorea-rundreise",
+        "https://www.japan-privatreisen.de/laenderkombi/japan-suedkorea-staedtereise",
+        "https://www.japan-privatreisen.de/themen/japan-familienreise",
+        "https://www.japan-privatreisen.de/themen/japan-gartenreise",
+        "https://www.japan-privatreisen.de/themen/japan-gourmetreise",
+        "https://www.japan-privatreisen.de/themen/japan-kulturreise",
+        "https://www.japan-privatreisen.de/themen/japan-reise-burgen",
+        "https://www.japan-privatreisen.de/themen/japan-winterreise"
+      ]
+    },
+    "vietnam": {
+      "sitemap": "https://www.vietnam-special-tours.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.vietnam-special-tours.de/exklusiv/naturreise-baden",
+        "https://www.vietnam-special-tours.de/exklusiv/rundreise-vietnam",
+        "https://www.vietnam-special-tours.de/exklusiv/vietnam-kulturreise",
+        "https://www.vietnam-special-tours.de/exklusiv/vietnam-laos-kambodscha",
+        "https://www.vietnam-special-tours.de/exklusiv/vietnam-luxusreise",
+        "https://www.vietnam-special-tours.de/exklusiv/vietnam-reise-traumpfade",
+        "https://www.vietnam-special-tours.de/laenderkombis/golfreise-vietnam-kambodscha",
+        "https://www.vietnam-special-tours.de/laenderkombis/kambodscha-laos-rundreise",
+        "https://www.vietnam-special-tours.de/laenderkombis/kambodscha-reise",
+        "https://www.vietnam-special-tours.de/laenderkombis/kambodscha-rundreise",
+        "https://www.vietnam-special-tours.de/laenderkombis/mystische-landschaften",
+        "https://www.vietnam-special-tours.de/laenderkombis/vietnam-kambodscha-baden",
+        "https://www.vietnam-special-tours.de/laenderkombis/vietnam-kambodscha-luxusreise",
+        "https://www.vietnam-special-tours.de/laenderkombis/vietnam-laos-reise",
+        "https://www.vietnam-special-tours.de/themenreisen/golfreise-vietnam",
+        "https://www.vietnam-special-tours.de/themenreisen/gourmetreise-vietnam-a-la-carte",
+        "https://www.vietnam-special-tours.de/themenreisen/lifestyle-reise",
+        "https://www.vietnam-special-tours.de/themenreisen/naturreise-vietnam",
+        "https://www.vietnam-special-tours.de/themenreisen/vietnam-familienreise",
+        "https://www.vietnam-special-tours.de/themenreisen/vietnam-kambodscha-familienreise",
+        "https://www.vietnam-special-tours.de/themenreisen/wellness-reise"
+      ]
+    },
+    "indien": {
+      "sitemap": "https://www.indien-special-tours.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.indien-special-tours.de/exklusiv/behind-the-scenes",
+        "https://www.indien-special-tours.de/exklusiv/indien-lifestyle-reise",
+        "https://www.indien-special-tours.de/exklusiv/indien-luxusreise",
+        "https://www.indien-special-tours.de/exklusiv/indien-luxusreise-ladakh",
+        "https://www.indien-special-tours.de/exklusiv/indien-reise-rajasthan",
+        "https://www.indien-special-tours.de/exklusiv/indien-rundreise-strand",
+        "https://www.indien-special-tours.de/exklusiv/karnataka-andamanen-reise",
+        "https://www.indien-special-tours.de/exklusiv/rundreise-indien",
+        "https://www.indien-special-tours.de/exklusiv/suedindien-reise",
+        "https://www.indien-special-tours.de/laenderkombis/indien-nepal-bhutan-reise",
+        "https://www.indien-special-tours.de/laenderkombis/indien-nepal-rundreise",
+        "https://www.indien-special-tours.de/laenderkombis/indien-nepal-tibet",
+        "https://www.indien-special-tours.de/laenderkombis/nepal-luxusreise",
+        "https://www.indien-special-tours.de/laenderkombis/nepal-rundreise-himalaya",
+        "https://www.indien-special-tours.de/laenderkombis/nepal-wanderreise",
+        "https://www.indien-special-tours.de/themenreisen/flusskreuzfahrt-ganges",
+        "https://www.indien-special-tours.de/themenreisen/himalaya-reise",
+        "https://www.indien-special-tours.de/themenreisen/indien-kulturreise",
+        "https://www.indien-special-tours.de/themenreisen/indien-natur-pur",
+        "https://www.indien-special-tours.de/themenreisen/indien-naturreise",
+        "https://www.indien-special-tours.de/themenreisen/ladakh-reise",
+        "https://www.indien-special-tours.de/themenreisen/ostindien-reise",
+        "https://www.indien-special-tours.de/themenreisen/yoga-reise"
+      ]
+    },
+    "indonesien": {
+      "sitemap": "https://www.indonesien-rundreisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.indonesien-rundreisen.de/aktivreisen-naturreisen/bali-radreise",
+        "https://www.indonesien-rundreisen.de/aktivreisen-naturreisen/bali-rundreise-intensiv",
+        "https://www.indonesien-rundreisen.de/aktivreisen-naturreisen/indonesien-golfreise",
+        "https://www.indonesien-rundreisen.de/aktivreisen-naturreisen/sumatra-rundreise",
+        "https://www.indonesien-rundreisen.de/exklusive-rundreisen/detox-reise-bali",
+        "https://www.indonesien-rundreisen.de/exklusive-rundreisen/familienreise-bali",
+        "https://www.indonesien-rundreisen.de/exklusive-rundreisen/indonesien-luxusreise",
+        "https://www.indonesien-rundreisen.de/exklusive-rundreisen/indonesien-rundreise",
+        "https://www.indonesien-rundreisen.de/exklusive-rundreisen/java-bali-rundreise",
+        "https://www.indonesien-rundreisen.de/exklusive-rundreisen/sulawesi-rundreise",
+        "https://www.indonesien-rundreisen.de/insel-hopping-indonesien/indonesien-kreuzfahrt",
+        "https://www.indonesien-rundreisen.de/insel-hopping-indonesien/indonesien-reise",
+        "https://www.indonesien-rundreisen.de/insel-hopping-indonesien/malaysia-indonesien-reise"
+      ]
+    },
+    "bhutan": {
+      "sitemap": "https://www.bhutan-rundreisen.com/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.bhutan-rundreisen.com/exklusiv/bhutan-luxusreise",
+        "https://www.bhutan-rundreisen.com/exklusiv/bhutan-reise",
+        "https://www.bhutan-rundreisen.com/exklusiv/bhutan-rundreise",
+        "https://www.bhutan-rundreisen.com/exklusiv/bhutan-rundreise-drache",
+        "https://www.bhutan-rundreisen.com/exklusiv/bhutan-wellness-reise",
+        "https://www.bhutan-rundreisen.com/exklusiv/luxusreise-bhutan",
+        "https://www.bhutan-rundreisen.com/laenderkombinationen/bhutan-indien-rundreise",
+        "https://www.bhutan-rundreisen.com/laenderkombinationen/bhutan-nepalreise",
+        "https://www.bhutan-rundreisen.com/laenderkombinationen/sikkim-bhutan-reise"
+      ]
+    },
+    "mongolei": {
+      "sitemap": "https://www.mongolei-special-tours.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.mongolei-special-tours.de/exklusiv/exklusive-mongoleireise",
+        "https://www.mongolei-special-tours.de/exklusiv/mongolei-rundreise-perle",
+        "https://www.mongolei-special-tours.de/exklusiv/rundreise-durch-das-herz-der-mongolei",
+        "https://www.mongolei-special-tours.de/themen/mongolei-reise-adlerjaeger",
+        "https://www.mongolei-special-tours.de/themen/mongoleireise-mit-klosteraufenthalt",
+        "https://www.mongolei-special-tours.de/themen/motorradreise"
+      ]
+    },
+    "sri-lanka": {
+      "sitemap": "https://www.sri-lanka-privatreisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.sri-lanka-privatreisen.de/exklusiv/reise-norden",
+        "https://www.sri-lanka-privatreisen.de/exklusiv/sri-lanka-luxusreise",
+        "https://www.sri-lanka-privatreisen.de/exklusiv/sri-lanka-reise",
+        "https://www.sri-lanka-privatreisen.de/exklusiv/sri-lanka-rundreise",
+        "https://www.sri-lanka-privatreisen.de/laenderkombi/sri-lanka-dubai-reise",
+        "https://www.sri-lanka-privatreisen.de/laenderkombi/sri-lanka-malediven-reise",
+        "https://www.sri-lanka-privatreisen.de/themen/golfreise-sri-lanka",
+        "https://www.sri-lanka-privatreisen.de/themen/naturreise-sri-lanka",
+        "https://www.sri-lanka-privatreisen.de/themen/sri-lanka-wellnessreise"
+      ]
+    },
+    "ozeanien": {
+      "sitemap": "https://www.ozeanien-reisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.ozeanien-reisen.de/australien/mietwagenreise-highlights",
+        "https://www.ozeanien-reisen.de/australien/mietwagenreise-sueden",
+        "https://www.ozeanien-reisen.de/australien/mietwagenreise-top-end",
+        "https://www.ozeanien-reisen.de/australien/reise-ikonen",
+        "https://www.ozeanien-reisen.de/australien/rundreise-genuss",
+        "https://www.ozeanien-reisen.de/australien/rundreise-tropischer-norden",
+        "https://www.ozeanien-reisen.de/australien/tasmanien-mietwagenreise",
+        "https://www.ozeanien-reisen.de/australien/zugreise-indian-pacific",
+        "https://www.ozeanien-reisen.de/neuseeland-reisen/boutiquereise",
+        "https://www.ozeanien-reisen.de/neuseeland-reisen/luxusreise-hoehepunkte",
+        "https://www.ozeanien-reisen.de/neuseeland-reisen/mietwagenreise-sued-nord",
+        "https://www.ozeanien-reisen.de/neuseeland-reisen/mietwagenrundreise-highlights",
+        "https://www.ozeanien-reisen.de/neuseeland-reisen/mietwagenrundreise-in-style",
+        "https://www.ozeanien-reisen.de/neuseeland-reisen/privatreise-naturwunder",
+        "https://www.ozeanien-reisen.de/suedsee/bora-bora-rundreise",
+        "https://www.ozeanien-reisen.de/suedsee/insel-hopping",
+        "https://www.ozeanien-reisen.de/suedsee/insel-hopping-franzoesisch-polynesien",
+        "https://www.ozeanien-reisen.de/suedsee/kombi-reise",
+        "https://www.ozeanien-reisen.de/suedsee/kreuzfahrt-marquesas-inseln",
+        "https://www.ozeanien-reisen.de/suedsee/samoa-reise"
+      ]
+    },
+    "seidenstrasse": {
+      "sitemap": "https://www.seidenstrasse-rundreisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.seidenstrasse-rundreisen.de/armenien/reise-christentum",
+        "https://www.seidenstrasse-rundreisen.de/georgien/armenien-georgien-rundreise",
+        "https://www.seidenstrasse-rundreisen.de/georgien/georgien-armenien-kulturreise",
+        "https://www.seidenstrasse-rundreisen.de/georgien/rundreise-goldenes-vlies",
+        "https://www.seidenstrasse-rundreisen.de/iran/oman-iran-reise",
+        "https://www.seidenstrasse-rundreisen.de/iran/reise-wueste",
+        "https://www.seidenstrasse-rundreisen.de/iran/reise-zauber",
+        "https://www.seidenstrasse-rundreisen.de/iran/rundreise-maerchen",
+        "https://www.seidenstrasse-rundreisen.de/laenderkombi/aserbaidschan-georgien-armenien-reise",
+        "https://www.seidenstrasse-rundreisen.de/laenderkombi/kirgistan-usbekistan-rundreise",
+        "https://www.seidenstrasse-rundreisen.de/laenderkombi/lebenstraum-seidenstrasse",
+        "https://www.seidenstrasse-rundreisen.de/laenderkombi/usbekistan-turkmenistan-rundreise",
+        "https://www.seidenstrasse-rundreisen.de/laenderkombi/zentralasien-rundreise-facetten",
+        "https://www.seidenstrasse-rundreisen.de/laenderkombi/zentralasien-rundreise-staedte",
+        "https://www.seidenstrasse-rundreisen.de/oman/oman-mietwagenreise",
+        "https://www.seidenstrasse-rundreisen.de/oman/oman-reise",
+        "https://www.seidenstrasse-rundreisen.de/oman/oman-rundreise",
+        "https://www.seidenstrasse-rundreisen.de/saudi-arabien/saudi-arabien-reise",
+        "https://www.seidenstrasse-rundreisen.de/saudi-arabien/saudi-arabien-rundreise",
+        "https://www.seidenstrasse-rundreisen.de/usbekistan/rundreise-usbekistan-seidenstrasse",
+        "https://www.seidenstrasse-rundreisen.de/usbekistan/usbekistan-kulturreise",
+        "https://www.seidenstrasse-rundreisen.de/usbekistan/usbekistan-reise-handwerk",
+        "https://www.seidenstrasse-rundreisen.de/usbekistan/usbekistan-reise-karawanen",
+        "https://www.seidenstrasse-rundreisen.de/usbekistan/usbekistan-reise-kuppeln",
+        "https://www.seidenstrasse-rundreisen.de/usbekistan/usbekistan-rundreise",
+        "https://www.seidenstrasse-rundreisen.de/usbekistan/usbekistan-staedtereise"
+      ]
+    },
+    "suedkorea": {
+      "sitemap": "https://www.suedkorea-reisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.suedkorea-reisen.de/exklusiv/luxusrundreise",
+        "https://www.suedkorea-reisen.de/exklusiv/suedkorea-reise",
+        "https://www.suedkorea-reisen.de/exklusiv/suedkorea-rundreise",
+        "https://www.suedkorea-reisen.de/themen/kulturreise-suedkorea",
+        "https://www.suedkorea-reisen.de/themen/naturreise-suedkorea",
+        "https://www.suedkorea-reisen.de/themen/suedkorea-familienreise"
+      ]
+    },
+    "malaysia": {
+      "sitemap": "https://www.malaysia-reisen.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.malaysia-reisen.de/aktiv-naturreisen/borneo-naturreise",
+        "https://www.malaysia-reisen.de/aktiv-naturreisen/borneo-sumatra-rundreise",
+        "https://www.malaysia-reisen.de/aktiv-naturreisen/malaysia-rundreise",
+        "https://www.malaysia-reisen.de/exklusiv/malaysia-entdeckerreise",
+        "https://www.malaysia-reisen.de/exklusiv/malaysia-luxusreise",
+        "https://www.malaysia-reisen.de/exklusiv/malaysia-reise-vielfalt",
+        "https://www.malaysia-reisen.de/exklusiv/malaysia-zugreise-eastern-oriental-express",
+        "https://www.malaysia-reisen.de/exklusiv/westmalaysia-luxusreise"
+      ]
+    },
+    "thailand": {
+      "sitemap": "https://www.thailand-special-tours.de/s/trips/sitemap.xml",
+      "urls": [
+        "https://www.thailand-special-tours.de/exklusiv/klassische-thailand-rundreise",
+        "https://www.thailand-special-tours.de/exklusiv/thailand-luxusreise",
+        "https://www.thailand-special-tours.de/exklusiv/thailand-naturreise",
+        "https://www.thailand-special-tours.de/laenderkombinationen/thailand-laos-kambodscha-luxusreise",
+        "https://www.thailand-special-tours.de/themenreisen/behind-scenes-isaan",
+        "https://www.thailand-special-tours.de/themenreisen/golfreise-thailand",
+        "https://www.thailand-special-tours.de/themenreisen/kulinarische-thailand-rundreise",
+        "https://www.thailand-special-tours.de/themenreisen/thailand-hochzeitsreise",
+        "https://www.thailand-special-tours.de/themenreisen/thailand-reise-familie"
+      ]
+    }
+  },
+  "redirects": []
+}
