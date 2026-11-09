@@ -21,69 +21,18 @@
     const contactMethod = form.querySelector('[name="contact_method"]');
     const phone = form.querySelector('[name="phone"]');
     const phoneLabel = phone?.closest(".field")?.querySelector(".optional");
-    const budget = form.querySelector('[name="budget"]');
-    const budgetRoute = form.querySelector("[data-budget-routing]");
-    const budgetRouteLink = form.querySelector("[data-europe-link]");
-    const initiallyRequiredFields = new Set(form.querySelectorAll("[required]"));
-    const mapInterestToEurope = (value) => {
-      const text = value.toLocaleLowerCase("de");
-      if (text.includes("wellness") || text.includes("erholung") || text.includes("spa")) return "wellness";
-      if (text.includes("kulinar") || text.includes("wein") || text.includes("genuss")) return "genuss";
-      if (text.includes("kultur") || text.includes("geschichte") || text.includes("begegnung")) return "kultur";
-      if (text.includes("natur") || text.includes("safari") || text.includes("tierwelt") || text.includes("aktiv") || text.includes("fotografie")) return "natur";
-      return "";
-    };
-    const getEuropeUrl = () => {
-      const isNetlifyPreview = location.hostname === "reisemanufaktur.netlify.app"
-        || location.hostname.endsWith("--reisemanufaktur.netlify.app");
-      const isLocal = location.protocol === "file:"
-        || location.hostname === "localhost"
-        || location.hostname === "127.0.0.1";
-      const destination = isNetlifyPreview || isLocal
-        ? new URL(
-          location.protocol === "file:" ? "../europa-special-tours/einstieg.html" : "/europa-special-tours/einstieg.html",
-          location.href
-        )
-        : new URL("https://www.europa-special-tours.de/einstieg.html");
-      destination.searchParams.set("quelle", form.dataset.siteKey || "reiseanfrage");
-      const selectedInterests = [...form.querySelectorAll('input[name="interests"]:checked')]
-        .map((input) => mapInterestToEurope(input.value))
-        .filter(Boolean);
-      [...new Set(selectedInterests)].slice(0, 3).forEach((interest) => destination.searchParams.append("thema", interest));
-      return destination;
-    };
-    const updateBudgetRoute = () => {
-      const isEuropeRoute = budget?.value === "unter-5000";
-      if (budgetRoute) budgetRoute.hidden = !isEuropeRoute;
-      initiallyRequiredFields.forEach((field) => {
-        field.required = isEuropeRoute ? field === budget : true;
-      });
-      if (budgetRouteLink && isEuropeRoute) budgetRouteLink.href = getEuropeUrl().toString();
-    };
 
     const updatePhoneRequirement = () => {
-      const required = budget?.value !== "unter-5000" && (contactMethod?.value === "Telefon" || contactMethod?.value === "Gern beides");
+      const required = contactMethod?.value === "Telefon" || contactMethod?.value === "Gern beides";
       if (phone) phone.required = required;
       if (phoneLabel) phoneLabel.textContent = required ? "(erforderlich)" : "(optional)";
     };
 
     contactMethod?.addEventListener("change", updatePhoneRequirement);
-    budget?.addEventListener("change", () => {
-      updateBudgetRoute();
-      updatePhoneRequirement();
-    });
-    form.querySelectorAll('input[name="interests"]').forEach((input) => {
-      input.addEventListener("change", updateBudgetRoute);
-    });
     updatePhoneRequirement();
-    updateBudgetRoute();
 
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-      if (budget?.value === "unter-5000") {
-        window.location.assign(getEuropeUrl().toString());
-        return;
-      }
       updatePhoneRequirement();
       if (!form.reportValidity()) return;
 

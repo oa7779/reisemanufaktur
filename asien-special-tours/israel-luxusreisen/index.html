@@ -71,9 +71,6 @@
     .travel-advisory{padding:22px 0;border-bottom:1px solid var(--line);background:#eee8da;color:var(--ink);font-size:.88rem}
     .travel-advisory p{margin:0}
     .travel-advisory a{font-weight:600;text-underline-offset:3px}
-    .budget-route{margin-top:16px;padding:18px 20px;border-left:3px solid var(--gold);background:#efebe2}
-    .budget-route p{margin:0 0 8px;color:var(--muted);font-size:.88rem}
-    .budget-route a{font-weight:700;text-underline-offset:4px}
     @media(max-width:760px){.expertise-grid{grid-template-columns:1fr;gap:14px}.expertise-card{padding:22px}.travel-advisory{font-size:.8rem}}
   </style>
 <link rel="alternate" hreflang="de" href="https://www.asien-special-tours.de/israel-luxusreisen/">
@@ -155,7 +152,7 @@
 <div class="field"><label data-i18n="durationLabel" for="duration">Reisedauer *</label><select id="duration" name="duration" required=""><option data-i18n="choose" value="">Bitte wählen</option><option data-i18n="duration1" value="5-7">5–7 Tage</option><option data-i18n="duration2" value="8-12">8–12 Tage</option><option data-i18n="duration3" value="13-20">13–20 Tage</option><option data-i18n="duration4" value="21+">Mehr als 20 Tage</option><option data-i18n="flexible" value="flexible">Noch offen oder flexibel</option></select></div>
 <div class="field"><label data-i18n="adultsLabel" for="adults">Erwachsene *</label><input id="adults" max="30" min="1" name="adults" required="" type="number" value="2"/></div>
 <div class="field"><label data-i18n="childrenLabel" for="children">Kinder unter 18 Jahren</label><input id="children" max="30" min="0" name="children" type="number" value="0"/></div>
-<div class="field full"><label data-i18n="budgetLabel" for="budget">Budgetrahmen pro Person *</label><div class="budget-fields"><select aria-label="Budgetwährung" data-label="currency" id="currency" name="currency"><option value="EUR">EUR</option><option value="USD">USD</option></select><select aria-describedby="budgetHelp" id="budget" name="budget" required=""><option data-i18n="choose" value="">Bitte auswählen</option><option data-i18n="budgetUnder5000" value="under-5000">Unter 5.000</option><option value="8000-12000">8.000–12.000</option><option value="12000-20000">12.000–20.000</option><option value="20000-35000">20.000–35.000</option><option value="35000+">35.000+</option><option data-i18n="budgetConsult" value="consult">Budget persönlich besprechen</option></select></div><small data-i18n="budgetHelp" id="budgetHelp">Für die gesamte Reise pro Person, ohne internationale Flüge. EUR und USD sind getrennte Planungsrahmen, keine umgerechneten Beträge. Die Angabe ist kein verbindlicher Preis.</small><div class="budget-route" hidden="" id="europeBudgetRoute" role="status"><p data-i18n="europeBudgetNote">Für Reiseideen unter 5.000 pro Person zeigen wir Ihnen passende Auszeiten bei Europa Special Tours.</p><a data-i18n="europeBudgetLink" href="https://www.europa-special-tours.de/einstieg.html?quelle=israel" id="europeBudgetLink">Europa-Auszeit entdecken →</a></div></div>
+<div class="field full"><label data-i18n="budgetLabel" for="budget">Budgetrahmen pro Person *</label><div class="budget-fields"><select aria-label="Budgetwährung" data-label="currency" id="currency" name="currency"><option value="EUR">EUR</option><option value="USD">USD</option></select><select aria-describedby="budgetHelp" id="budget" name="budget" required=""><option data-i18n="choose" value="">Bitte auswählen</option><option data-i18n="budgetUnder5000" value="under-5000">Unter 5.000</option><option value="8000-12000">8.000–12.000</option><option value="12000-20000">12.000–20.000</option><option value="20000-35000">20.000–35.000</option><option value="35000+">35.000+</option><option data-i18n="budgetConsult" value="consult">Budget persönlich besprechen</option></select></div><small data-i18n="budgetHelp" id="budgetHelp">Für die gesamte Reise pro Person, ohne internationale Flüge. EUR und USD sind getrennte Planungsrahmen, keine umgerechneten Beträge. Die Angabe ist kein verbindlicher Preis.</small></div>
 </div><fieldset class="interests"><legend data-i18n="interestsLabel">Worauf freuen Sie sich? (Optional)</legend><div class="chips">
 <label class="chip"><input name="interests" type="checkbox" value="coast"/><span data-i18n="interestCoast">Meer &amp; Design</span></label><label class="chip"><input name="interests" type="checkbox" value="food"/><span data-i18n="interestFood">Kulinarik &amp; Wein</span></label><label class="chip"><input name="interests" type="checkbox" value="desert"/><span data-i18n="interestDesert">Wüste &amp; Wellness</span></label><label class="chip"><input name="interests" type="checkbox" value="culture"/><span data-i18n="interestCulture">Kunst &amp; Kultur</span></label><label class="chip"><input name="interests" type="checkbox" value="family"/><span data-i18n="interestFamily">Zeit mit der Familie</span></label>
 </div></fieldset><div class="form-actions"><button class="btn" id="nextStep" type="button"><span data-i18n="next">Weiter zu meinem Kontakt</span><span aria-hidden="true">→</span></button></div></fieldset>
@@ -245,7 +242,7 @@
       progress:"Inquiry progress",progress1:"Your journey",progress2:"Your details",tripLegend:"What would you like your journey to include?",requiredNote:"* Required fields. We will refine the details with you.",
       periodLabel:"Preferred travel dates",periodPlaceholder:"e.g., May 2027, or flexible",durationLabel:"Trip length *",choose:"Please select",
       duration1:"5–7 days",duration2:"8–12 days",duration3:"13–20 days",duration4:"More than 20 days",flexible:"Undecided / flexible",
-      adultsLabel:"Adults *",childrenLabel:"Children under 18",budgetLabel:"Your budget per person *",currency:"Budget currency",budgetUnder5000:"Under 5,000",budgetConsult:"Discuss my budget personally",europeBudgetNote:"For travel ideas under 5,000 per person, discover a more suitable short break with Europa Special Tours.",europeBudgetLink:"Explore a European getaway →",
+      adultsLabel:"Adults *",childrenLabel:"Children under 18",budgetLabel:"Your budget per person *",currency:"Budget currency",budgetUnder5000:"Under 5,000",budgetConsult:"Discuss my budget personally",
       budgetHelp:"For the entire trip per person, excluding international flights. EUR and USD are separate planning budgets, not currency conversions. Not a binding price.",
       interestsLabel:"What would you most enjoy? (Optional)",interestCoast:"The sea & design",interestFood:"Cuisine & wine",interestDesert:"Desert & wellness",interestCulture:"Art & culture",interestFamily:"Time with family",
       next:"Continue to your details",contactLegend:"How may we reach you?",contactHelp:"Your travel preferences are saved here. * Required fields.",
@@ -282,8 +279,6 @@
     const tripStep = document.querySelector("#tripStep");
     const contactStep = document.querySelector("#contactStep");
     const budget = document.querySelector("#budget");
-    const europeBudgetRoute = document.querySelector("#europeBudgetRoute");
-    const europeBudgetLink = document.querySelector("#europeBudgetLink");
     const status = document.querySelector("#formStatus");
     const menuToggle = document.querySelector(".menu-toggle");
     const primaryLinks = document.querySelector("#primaryLinks");
@@ -295,35 +290,6 @@
     const selectedText = id => document.getElementById(id).selectedOptions[0].textContent;
     const budgetText = () => value("budget") === "consult" ? t("budgetConsult") : `${value("currency")} ${selectedText("budget")}`;
     const interestNames = () => Array.from(form.querySelectorAll('input[name="interests"]:checked'),input => input.nextElementSibling.textContent);
-    function getEuropeEntryUrl() {
-      const isPreview = location.hostname === "reisemanufaktur.netlify.app"
-        || location.hostname.endsWith("--reisemanufaktur.netlify.app");
-      const isLocalServer = location.hostname === "localhost" || location.hostname === "127.0.0.1";
-      const isIntegratedFile = location.protocol === "file:"
-        && location.href.toLowerCase().includes("/asien-special-tours/israel-luxusreisen/");
-      let destination;
-      if (isPreview || isLocalServer) {
-        destination = new URL("/europa-special-tours/einstieg.html", location.href);
-      } else if (isIntegratedFile) {
-        destination = new URL("../../europa-special-tours/einstieg.html", location.href);
-      } else {
-        destination = new URL("https://www.europa-special-tours.de/einstieg.html");
-      }
-      destination.searchParams.set("quelle", "israel");
-      destination.searchParams.set("budget", "unter-5000");
-      const themeByInterest = {coast:"wellness",food:"genuss",desert:"wellness",culture:"kultur",family:"kultur"};
-      const themes = new Set(
-        Array.from(form.querySelectorAll('input[name="interests"]:checked'), input => themeByInterest[input.value])
-          .filter(Boolean)
-      );
-      themes.forEach(theme => destination.searchParams.append("thema", theme));
-      return destination;
-    }
-    function updateEuropeBudgetRoute() {
-      const isBelowThreshold = budget.value === "under-5000";
-      europeBudgetRoute.hidden = !isBelowThreshold;
-      if (isBelowThreshold) europeBudgetLink.href = getEuropeEntryUrl().toString();
-    }
     function updateSummary() {
       document.querySelector("#tripSummary").textContent = `${value("adults")} ${t("summaryPeople")} · ${value("children") || "0"} ${t("summaryChildren")} · ${selectedText("duration")} · ${budgetText()} (${t("summaryBudget")})`;
     }
@@ -361,9 +327,14 @@
       document.querySelector('meta[property="og:locale"]').content = next === "en" ? "en_US" : "de_DE";
       document.querySelector('meta[property="og:locale:alternate"]').content = next === "en" ? "de_DE" : "en_US";
       document.querySelector('meta[property="og:image:alt"]').content = t("poolAlt");
-      const schema = JSON.parse(document.querySelector("#structuredData").textContent);
-      schema.description = t("description");
-      document.querySelector("#structuredData").textContent = JSON.stringify(schema);
+      // The agency schema is regenerated by the metadata pipeline, so it is located by content, not by id.
+      const agencyScript = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(script => script.textContent.includes('"TravelAgency"'));
+      if (agencyScript) {
+        const schema = JSON.parse(agencyScript.textContent);
+        schema.description = t("description");
+        agencyScript.textContent = JSON.stringify(schema);
+      }
       const faqSchema = {
         "@context":"https://schema.org",
         "@type":"FAQPage",
@@ -373,8 +344,15 @@
           "acceptedAnswer":{"@type":"Answer","text":item.querySelector("p").innerText.trim()}
         }))
       };
-      document.querySelector("#faqStructuredData").textContent = JSON.stringify(faqSchema);
-      updateEuropeBudgetRoute();
+      // The FAQ schema is created at runtime so the static page keeps exactly one visible-FAQ source.
+      let faqScript = document.querySelector("#faqStructuredData");
+      if (!faqScript) {
+        faqScript = document.createElement("script");
+        faqScript.type = "application/ld+json";
+        faqScript.id = "faqStructuredData";
+        document.head.append(faqScript);
+      }
+      faqScript.textContent = JSON.stringify(faqSchema);
       setStatus(statusKey);
       updateSummary();
       closeMenu();
@@ -450,14 +428,8 @@
     }));
     document.querySelector("#nextStep").addEventListener("click",() => {
       if (!validateStep(tripStep)) return;
-      if (budget.value === "under-5000") {
-        location.assign(getEuropeEntryUrl().toString());
-        return;
-      }
       showStep(2);
     });
-    budget.addEventListener("change", updateEuropeBudgetRoute);
-    form.querySelectorAll('input[name="interests"]').forEach(input => input.addEventListener("change", updateEuropeBudgetRoute));
     document.querySelector("#backStep").addEventListener("click",() => showStep(1));
     form.noValidate = true;
     form.addEventListener("submit",event => {

@@ -1,5 +1,4 @@
 (() => {
-  const script = document.querySelector("script[data-form-intake]");
   const english = document.documentElement.lang === "en-US";
   const copy = (de, en) => english ? en : de;
   const params = new URLSearchParams(location.search);
@@ -27,12 +26,9 @@
   });
 
   document.querySelectorAll("[data-travel-inquiry]").forEach((form) => {
-    const budget = form.querySelector('[name="budget"]');
     const phone = form.querySelector('[name="phone"]');
     const contact = form.querySelector('[name="contact_method"]');
     const optional = phone?.closest(".field")?.querySelector(".optional");
-    const route = form.querySelector("[data-budget-routing]");
-    const routeLink = form.querySelector("[data-europe-link]");
     const journey = form.querySelector('[name="journey"]');
     const catalogueJourney = form.querySelector('[name="catalogue_journey"]');
     if (catalogueJourney) {
@@ -53,7 +49,6 @@
       catalogueJourney.addEventListener("change", updateCatalogue);
       if (valid) updateCatalogue();
     }
-    const required = [...form.querySelectorAll("[required]")];
     if (journey) {
       const selectedThemes = {
         wellness: "Wellness und Erholung", stadt: "Stadt und Kultur", genuss: "Kulinarik und Wein",
@@ -73,43 +68,17 @@
       journey.addEventListener("change", updateIdea);
       updateIdea();
     }
-    const europeUrl = () => {
-      const url = new URL(script.dataset.europeUrl, location.href);
-      url.searchParams.set("quelle", form.dataset.siteKey);
-      url.searchParams.set("auswahl", "reiseidee");
-      const selected = new Set();
-      form.querySelectorAll('input[name="interests"]:checked').forEach((input) => {
-        const value = input.value.toLocaleLowerCase("de");
-        if (/wellness|erholung|spa/.test(value)) selected.add("wellness");
-        else if (/kulinar|wein|genuss/.test(value)) selected.add("genuss");
-        else if (/kultur|geschichte|begegnung/.test(value)) selected.add("kultur");
-        else if (/natur|safari|tierwelt|aktiv|fotografie/.test(value)) selected.add("natur");
-      });
-      [...selected].slice(0, 3).forEach((theme) => url.searchParams.append("thema", theme));
-      return url;
-    };
     const update = () => {
-      const guided = Boolean(route && budget.value === "unter-5000");
-      form.classList.toggle("is-europe-route", guided);
-      if (route) route.hidden = !guided;
-      required.forEach((field) => { field.required = !guided || field === budget; });
-      if (routeLink) routeLink.href = europeUrl().href;
       if (phone) {
-        phone.required = !guided && ["Telefon", "Gern beides", "Phone", "Either is fine"].includes(contact.value);
+        phone.required = ["Telefon", "Gern beides", "Phone", "Either is fine"].includes(contact.value);
         if (optional) optional.textContent = phone.required ? copy("(erforderlich)", "(required)") : copy("(optional)", "(optional)");
       }
     };
-    budget.addEventListener("change", update);
     contact.addEventListener("change", update);
-    form.querySelectorAll('input[name="interests"]').forEach((input) => input.addEventListener("change", update));
     update();
     form.addEventListener("submit", (event) => {
       event.preventDefault();
       update();
-      if (route && budget.value === "unter-5000") {
-        location.assign(europeUrl().href);
-        return;
-      }
       if (!form.reportValidity()) return;
       const values = new FormData(form);
       if (values.get("website")) return;
