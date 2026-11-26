@@ -1,0 +1,418 @@
+/* Generated from config/brands.json by build-brand-reference-pilot.py. */
+:root {
+  --reference-body-font: "Source Sans Pro", sans-serif;
+  --reference-heading-font: Poppins, sans-serif;
+  --reference-primary: #c49651;
+  --reference-secondary: #333333;
+  --reference-accent: #c49651;
+  --reference-background: #ffffff;
+  --reference-surface: #ffffff;
+  --reference-border: #e1e1e1;
+  --reference-hero-fallback: #333333;
+}
+body[data-design="reference-pilot"][data-brand="asia"] {
+  --reference-primary: #c49651;
+  --reference-secondary: #333333;
+  --reference-accent: #c49651;
+  --reference-background: #ffffff;
+  --reference-surface: #ffffff;
+  --reference-border: #e1e1e1;
+}
+body[data-design="reference-pilot"][data-brand="africa"] {
+  --reference-primary: #c49651;
+  --reference-secondary: #333333;
+  --reference-accent: #c49651;
+  --reference-background: #ffffff;
+  --reference-surface: #ffffff;
+  --reference-border: #e1e1e1;
+}
+body[data-design="reference-pilot"][data-brand="america"] {
+  --reference-primary: #c49651;
+  --reference-secondary: #333333;
+  --reference-accent: #c49651;
+  --reference-background: #ffffff;
+  --reference-surface: #ffffff;
+  --reference-border: #e1e1e1;
+}
+
+body[data-design="reference-pilot"] {
+  --accent: var(--reference-accent);
+  --accent-dark: var(--reference-secondary);
+  --brand-dark: var(--reference-secondary);
+  --brand-tint: var(--reference-surface);
+  --ink: var(--reference-secondary);
+  color: var(--reference-secondary);
+  background: var(--reference-background);
+  font-family: var(--reference-body-font);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body[data-design="reference-pilot"] a,
+body[data-design="reference-pilot"] .text-link {
+  color: var(--reference-primary);
+}
+
+body[data-design="reference-pilot"] h1,
+body[data-design="reference-pilot"] h2,
+body[data-design="reference-pilot"] h3,
+body[data-design="reference-pilot"] h4,
+body[data-design="reference-pilot"] h5,
+body[data-design="reference-pilot"] h6,
+body[data-design="reference-pilot"] .faq-list summary {
+  font-family: var(--reference-heading-font);
+  font-weight: 300;
+}
+
+body[data-design="reference-pilot"] h2,
+body[data-design="reference-pilot"] h3,
+body[data-design="reference-pilot"] h4,
+body[data-design="reference-pilot"] h5,
+body[data-design="reference-pilot"] h6 {
+  color: var(--reference-primary);
+}
+
+body[data-design="reference-pilot"] :focus-visible {
+  outline: 3px solid var(--reference-primary);
+  outline-offset: 3px;
+}
+
+body[data-design="reference-pilot"] .site-header {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 20;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  backdrop-filter: none;
+}
+
+body[data-design="reference-pilot"] .nav-inner {
+  position: relative;
+  width: min(1600px, calc(100% - 48px));
+  min-height: 112px;
+}
+
+body[data-design="reference-pilot"] .wordmark {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  z-index: 2;
+  transform: translateX(-50%);
+  justify-content: center;
+  color: #fff;
+  white-space: nowrap;
+}
+
+body[data-design="reference-pilot"] .wordmark-copy strong,
+body[data-design="reference-pilot"] .wordmark-copy small {
+  color: #fff;
+}
+
+body[data-design="reference-pilot"] .brand-logo {
+  width: 52px;
+  height: 48px;
+  object-fit: contain;
+}
+
+body[data-design="reference-pilot"] .nav-toggle {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 3;
+  display: block;
+  border: 0;
+  background: transparent;
+  color: #fff;
+}
+
+body[data-design="reference-pilot"] .reference-phone {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  z-index: 3;
+  color: #fff;
+  white-space: nowrap;
+}
+
+body[data-design="reference-pilot"] .nav-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  width: min(440px, calc(100vw - 48px));
+  align-items: stretch;
+  flex-direction: column;
+  gap: 0;
+  padding: 12px 20px;
+  border: 1px solid var(--reference-border);
+  background: var(--reference-surface);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .16);
+}
+
+body[data-design="reference-pilot"] .nav-menu.is-open {
+  display: flex;
+}
+
+body[data-design="reference-pilot"] .nav-menu a,
+body[data-design="reference-pilot"] .nav-menu .language-switch,
+body[data-design="reference-pilot"] .nav-menu .language-switch a {
+  color: var(--reference-secondary);
+}
+
+body[data-design="reference-pilot"] .portal-home-link {
+  display: none;
+}
+
+body[data-design="reference-pilot"] .hero,
+body[data-design="reference-pilot"] .page-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: min(760px, 94svh);
+  align-items: flex-end;
+  background: var(--reference-hero-fallback);
+  color: #fff;
+}
+
+body[data-design="reference-pilot"] .hero-image,
+body[data-design="reference-pilot"] .page-hero > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+}
+
+body[data-design="reference-pilot"] .hero::after,
+body[data-design="reference-pilot"] .page-hero::after {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .48), transparent 68%);
+  content: "";
+}
+
+body[data-design="reference-pilot"] .hero-content,
+body[data-design="reference-pilot"] .page-hero .wrap {
+  position: relative;
+  z-index: 1;
+  width: min(1600px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 150px 0 72px;
+}
+
+body[data-design="reference-pilot"] .hero-content h1,
+body[data-design="reference-pilot"] .page-hero h1 {
+  max-width: 980px;
+  color: #fff;
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  line-height: 1.12;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, .2);
+}
+
+body[data-design="reference-pilot"] .hero-content .eyebrow,
+body[data-design="reference-pilot"] .page-hero .eyebrow,
+body[data-design="reference-pilot"] .hero-content .lead,
+body[data-design="reference-pilot"] .page-hero .lead {
+  color: #fff;
+}
+
+body[data-design="reference-pilot"] .hero-actions .button,
+body[data-design="reference-pilot"] .button,
+body[data-design="reference-pilot"] a.link {
+  border: 0;
+  border-radius: 0;
+  background: var(--reference-primary);
+  color: #fff;
+  box-shadow: none;
+}
+
+body[data-design="reference-pilot"] .button-outline {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+body[data-design="reference-pilot"] .section,
+body[data-design="reference-pilot"] .section-soft,
+body[data-design="reference-pilot"] .campaign-hero {
+  background: var(--reference-background);
+}
+
+body[data-design="reference-pilot"] .section-heading h2 {
+  color: var(--reference-primary);
+}
+
+body[data-design="reference-pilot"] .destination-card,
+body[data-design="reference-pilot"] .pillar,
+body[data-design="reference-pilot"] .quote-card,
+body[data-design="reference-pilot"] .expertise-card {
+  border: 0;
+  border-radius: 0;
+  background: var(--reference-surface);
+  box-shadow: none;
+}
+
+body[data-design="reference-pilot"] .destination-card img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+body[data-design="reference-pilot"] .destination-card-copy {
+  padding: 20px 0;
+}
+
+body[data-design="reference-pilot"] .split-band,
+body[data-design="reference-pilot"] .app-feature,
+body[data-design="reference-pilot"] .expertise-section {
+  background: var(--reference-background);
+  color: var(--reference-secondary);
+}
+
+body[data-design="reference-pilot"] .faq-list details {
+  border-color: var(--reference-border);
+  border-radius: 0;
+  background: transparent;
+}
+
+body[data-design="reference-pilot"] .faq-list summary {
+  color: var(--reference-primary);
+}
+
+body[data-design="reference-pilot"] input,
+body[data-design="reference-pilot"] select,
+body[data-design="reference-pilot"] textarea {
+  border-radius: 0;
+  border-color: var(--reference-border);
+  background: #fff;
+  font-family: var(--reference-body-font);
+}
+
+body[data-design="reference-pilot"] .site-footer {
+  background: #333;
+  color: #fff;
+}
+
+body[data-design="reference-pilot"] .site-footer a,
+body[data-design="reference-pilot"] .site-footer h3 {
+  color: var(--reference-primary);
+}
+
+body[data-design="reference-pilot"] [data-review-status="review_required"][hidden] {
+  display: none !important;
+}
+
+body[data-design="brand-selector"] {
+  color: var(--reference-secondary);
+  background: var(--reference-background);
+  font-family: var(--reference-body-font);
+}
+
+body[data-design="brand-selector"] .portal-header,
+body[data-design="brand-selector"] .portal-hero,
+body[data-design="brand-selector"] .site-footer,
+body[data-design="brand-selector"] main > section:not(.portal-brands) {
+  display: none !important;
+}
+
+body[data-design="brand-selector"] .portal-brands {
+  display: block;
+  min-height: 100vh;
+  padding: clamp(40px, 8vh, 100px) 24px;
+  background: var(--reference-background);
+}
+
+body[data-design="brand-selector"] .portal-brands .section-heading h1,
+body[data-design="brand-selector"] .portal-brands .section-heading h2 {
+  max-width: 100%;
+  color: var(--reference-secondary);
+  font-family: var(--reference-heading-font);
+  font-size: clamp(2.2rem, 6vw, 4.4rem);
+  font-weight: 300;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+body[data-design="brand-selector"] .brand-grid {
+  width: min(1100px, 100%);
+  margin: 40px auto 0;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+body[data-design="brand-selector"] .brand-card {
+  display: flex;
+  min-height: 320px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: 1px solid var(--reference-border);
+  border-radius: 0;
+  background: var(--reference-surface);
+  color: var(--reference-secondary);
+  text-align: center;
+  box-shadow: none;
+}
+
+body[data-design="brand-selector"] .brand-card-logo {
+  width: min(190px, 100%);
+  height: 110px;
+  object-fit: contain;
+}
+
+body[data-design="brand-selector"] .brand-card strong {
+  color: var(--reference-secondary);
+  font-family: var(--reference-heading-font);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+body[data-design="brand-selector"] .brand-card > span:not(.brand-kicker) {
+  display: none;
+}
+
+body[data-design="brand-selector"] .brand-card .selector-region {
+  color: var(--reference-secondary);
+}
+
+@media (max-width: 760px) {
+  body[data-design="reference-pilot"] .nav-inner {
+    width: calc(100% - 32px);
+    min-height: 92px;
+  }
+
+  body[data-design="reference-pilot"] .wordmark-copy {
+    display: none;
+  }
+
+  body[data-design="reference-pilot"] .reference-phone {
+    top: 24px;
+    font-size: .82rem;
+  }
+
+  body[data-design="reference-pilot"] .nav-toggle {
+    top: 23px;
+  }
+
+  body[data-design="reference-pilot"] .hero,
+  body[data-design="reference-pilot"] .page-hero {
+    min-height: min(680px, 92svh);
+  }
+
+  body[data-design="reference-pilot"] .hero-content,
+  body[data-design="reference-pilot"] .page-hero .wrap {
+    width: calc(100% - 36px);
+    padding: 130px 0 48px;
+  }
+
+  body[data-design="brand-selector"] .brand-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-design="brand-selector"] .brand-card {
+    min-height: 250px;
+  }
+}
