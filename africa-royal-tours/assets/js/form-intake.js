@@ -1,4 +1,20 @@
 (() => {
+  if (!document.querySelector('script[src$="assets/js/site.js"]')) {
+    const toggle = document.querySelector(".nav-toggle");
+    const menu = document.querySelector(".nav-menu");
+    if (toggle && menu) {
+      toggle.addEventListener("click", () => {
+        const open = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!open));
+        menu.classList.toggle("is-open", !open);
+      });
+      menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
+        toggle.setAttribute("aria-expanded", "false");
+        menu.classList.remove("is-open");
+      }));
+    }
+  }
+
   const english = document.documentElement.lang === "en-US";
   const copy = (de, en) => english ? en : de;
   const params = new URLSearchParams(location.search);
@@ -10,6 +26,7 @@
     if (params.get("auswahl") === "reiseidee") url.searchParams.set("auswahl", "reiseidee");
     return url;
   };
+
   document.querySelectorAll("[data-journey-idea] a").forEach((anchor) => {
     anchor.href = context(new URL(anchor.getAttribute("href"), location.href)).href;
   });
@@ -26,37 +43,9 @@
   });
 
   document.querySelectorAll("[data-travel-inquiry]").forEach((form) => {
-    const phone = form.querySelector('[name="phone"]');
-    const contact = form.querySelector('[name="contact_method"]');
-    const optional = phone?.closest(".field")?.querySelector(".optional");
     const journey = form.querySelector('[name="journey"]');
-    const catalogueJourney = form.querySelector('[name="catalogue_journey"]');
-    if (catalogueJourney) {
-      const requested = params.get("reise");
-      const valid = [...catalogueJourney.options].some((option) => option.value === requested);
-      if (valid) catalogueJourney.value = requested;
-      const error = form.querySelector("[data-trip-selection-error]");
-      error.hidden = !requested || valid;
-      const updateCatalogue = () => {
-        error.hidden = true;
-        document.querySelectorAll(".language-switch a[hreflang]").forEach((anchor) => {
-          const url = new URL(anchor.href);
-          if (catalogueJourney.value) url.searchParams.set("reise", catalogueJourney.value);
-          else url.searchParams.delete("reise");
-          anchor.href = url.href;
-        });
-      };
-      catalogueJourney.addEventListener("change", updateCatalogue);
-      if (valid) updateCatalogue();
-    }
     if (journey) {
-      const selectedThemes = {
-        wellness: "Wellness und Erholung", stadt: "Stadt und Kultur", genuss: "Kulinarik und Wein",
-        geschichte: "Geschichte und Folklore", natur: "Natur und Bewegung", familie: "Familienauszeit"
-      };
       const updateIdea = () => {
-        const interest = form.querySelector('[name="interests"]');
-        if (selectedThemes[journey.value]) interest.value = selectedThemes[journey.value];
         document.querySelectorAll(".language-switch a[hreflang]").forEach((anchor) => {
           const url = new URL(anchor.href);
           if (ideas.has(journey.value)) url.searchParams.set("reise", journey.value);
@@ -68,54 +57,41 @@
       journey.addEventListener("change", updateIdea);
       updateIdea();
     }
-    const update = () => {
-      if (phone) {
-        phone.required = ["Telefon", "Gern beides", "Phone", "Either is fine"].includes(contact.value);
-        if (optional) optional.textContent = phone.required ? copy("(erforderlich)", "(required)") : copy("(optional)", "(optional)");
-      }
-    };
-    contact.addEventListener("change", update);
-    update();
+
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-      update();
       if (!form.reportValidity()) return;
       const values = new FormData(form);
       if (values.get("website")) return;
       const label = (name) => {
         const field = form.querySelector(`[name="${name}"]`);
-        return field?.selectedOptions?.[0]?.textContent?.trim() || values.get(name) || copy("Nicht angegeben", "Not specified");
+        return field?.selectedOptions?.[0]?.textContent?.trim() || values.get(name)?.trim()
+          || copy("Nicht angegeben", "Not specified");
       };
-      const budgetScore = {"5000-8000": 1, "8000-12000": 2, "12000-20000": 3, "20000-30000": 4, "ueber-30000": 5}[values.get("budget")] || 0;
-      const timeScore = {"0-3": 2, "4-6": 2, "7-12": 1}[values.get("travel_window")] || 0;
-      const detailScore = (values.get("destination") ? 2 : 0) + (values.getAll("interests").length ? 1 : 0) + ((values.get("message") || "").trim().length >= 40 ? 1 : 0);
-      const readiness = Math.min(10, budgetScore + timeScore + detailScore);
-      const priority = readiness >= 7 ? "A" : readiness >= 4 ? "B" : "C";
+      const fullName = [label("first_name"), label("last_name")]
+        .filter((value) => value !== copy("Nicht angegeben", "Not specified"))
+        .join(" ");
+      const salutation = values.get("salutation") ? label("salutation") : "";
       const lines = [
         copy("Reiseanfrage", "Travel inquiry") + ` · ${form.dataset.site}`, "",
-        copy("Vorläufige Beratungspriorität (nur intern): ", "Preliminary consultation priority (internal only): ") + `${priority} (${readiness}/10)`,
-        copy("Die Einordnung dient der Vorbereitung und ist keine automatische Ablehnung.", "This classification is for preparation only and is not an automatic rejection."), "",
-        ...(journey ? [copy("Gewählte Reiseidee: ", "Selected travel idea: ") + label("journey"), ""] : []),
-        ...(journey ? [journey.selectedOptions[0].dataset.outline, copy("Inspirationsentwurf; Leistungen und Verfügbarkeit sind noch nicht bestätigt.", "Inspiration draft; services and availability have not been confirmed."), ""] : []),
-        ...(catalogueJourney?.value ? [copy("Gewählte Katalogreise: ", "Selected catalog journey: ") + label("catalogue_journey"), ""] : []),
-        copy("Name: ", "Name: ") + label("name"),
+        ...(journey ? [
+          copy("Gewählte Reiseidee: ", "Selected travel idea: ") + label("journey"),
+          journey.selectedOptions[0].dataset.outline || "",
+          copy("Inspirationsentwurf; Leistungen und Verfügbarkeit sind noch nicht bestätigt.", "Inspiration draft; services and availability have not been confirmed."),
+          ""
+        ] : []),
+        copy("Anrede: ", "Salutation: ") + (salutation || copy("Nicht angegeben", "Not specified")),
+        copy("Name: ", "Name: ") + (fullName || copy("Nicht angegeben", "Not specified")),
         copy("E-Mail: ", "Email: ") + label("email"),
         copy("Telefon: ", "Phone: ") + label("phone"),
-        copy("Bevorzugter Kontakt: ", "Preferred contact: ") + label("contact_method"),
         copy("Wunschregion: ", "Preferred region: ") + label("destination"),
-        copy("Reisezeitraum: ", "Travel window: ") + label("travel_window"),
-        copy("Reisedauer: ", "Trip length: ") + label("duration") + (journey ? copy(" Nächte", " nights") : copy(" Tage", " days")),
         copy("Reisende: ", "Travelers: ") + label("travelers"),
-        copy("Gesamtbudget je Person einschließlich Anreise: ", "Total budget per person including transportation: ") + label("budget"),
-        ...(!journey ? [
-          copy("Unterkunft: ", "Accommodation: ") + label("accommodation"),
-          copy("Reisestil: ", "Travel style: ") + label("travel_style")
-        ] : []),
-        copy("Interessen: ", "Interests: ") + (journey ? label("interests") : values.getAll("interests").join(", ")),
-        "", copy("Wünsche und Hinweise: ", "Wishes and notes: ") + label("message"), "",
+        "", copy("Erzählen Sie uns von Ihren Reisewünschen:", "Tell us about your travel wishes:"),
+        label("message"), "",
         copy("Datenschutzhinweis wurde bestätigt.", "The privacy notice was acknowledged.")
       ];
-      const subject = [copy("Reiseanfrage", "Travel inquiry"), journey ? label("journey") : catalogueJourney?.value ? label("catalogue_journey") : form.dataset.site, label("name")].join(" · ");
+      const subject = [copy("Reiseanfrage", "Travel inquiry"),
+        journey ? label("journey") : form.dataset.site, fullName].join(" · ");
       const mailto = `mailto:${form.dataset.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
       const status = form.querySelector(".form-status");
       const message = document.createElement("p");
