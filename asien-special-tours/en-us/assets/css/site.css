@@ -62,12 +62,21 @@ h3 { margin-bottom: 12px; font-size: 1.55rem; }
 .nav-menu .nav-cta { padding: 10px 15px; border: 1px solid var(--accent); color: var(--accent-dark); font-weight: 700; }
 .nav-toggle { display: none; padding: 8px; border: 0; background: transparent; color: var(--ink); font-size: 1.4rem; }
 
+@media (min-width: 701px) and (max-width: 1000px) {
+  body[data-brand]:not([data-design="reference-pilot"]) .nav-toggle { display: block; }
+  body[data-brand]:not([data-design="reference-pilot"]) .nav-menu { position: absolute; top: 78px; right: 0; left: 0; display: none; align-items: stretch; flex-direction: column; gap: 0; padding: 8px 18px 20px; border-bottom: 1px solid var(--line); background: var(--paper); }
+  body[data-brand]:not([data-design="reference-pilot"]) .nav-menu.is-open { display: flex; }
+  body[data-brand]:not([data-design="reference-pilot"]) .nav-menu a { padding: 12px 8px; font-size: .93rem; }
+  body[data-brand]:not([data-design="reference-pilot"]) .nav-menu .nav-cta { margin-top: 8px; text-align: center; }
+}
+
 .hero { position: relative; display: grid; min-height: min(720px, calc(100svh - 78px)); align-items: center; overflow: hidden; background: var(--brand-dark); color: #fff; }
 .hero-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .62; }
 body[data-brand] .hero { min-height: min(860px, calc(100svh - 78px)); }
 body[data-brand] .hero-image { opacity: 1; object-position: center 45%; }
 body[data-brand] .hero::after { background: linear-gradient(90deg, rgba(10,20,18,.82), rgba(10,20,18,.48) 45%, rgba(10,20,18,.04) 80%), linear-gradient(0deg, rgba(10,20,18,.36), transparent 55%); }
 .hero::after { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(14,22,18,.82) 0%, rgba(20,29,23,.52) 46%, rgba(18,25,20,.08) 100%), linear-gradient(0deg, rgba(13,20,16,.32), transparent 68%); content: ""; }
+body[data-design="reference-pilot"] .hero.hero--asia-original::after { background: linear-gradient(0deg, rgba(0,0,0,.68), rgba(0,0,0,.58)); }
 .hero-content { position: relative; z-index: 1; width: min(var(--max), calc(100% - 48px)); margin: 0 auto; padding: 90px 0; }
 .hero-content .eyebrow { color: #dfc89b; }
 .hero-content h1 { max-width: 800px; text-shadow: 0 2px 24px rgba(0,0,0,.2); }
@@ -192,6 +201,7 @@ body[data-brand] .hero::after { background: linear-gradient(90deg, rgba(10,20,18
 .honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 
 .site-footer { padding: 56px 0 24px; background: #1c2923; color: #fff; }
+.site-footer > a { display: inline-block; margin: 12px 0 0 24px; }
 .footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 32px; padding-bottom: 38px; }
 .footer-brand strong { display: block; margin-bottom: 10px; font: 500 1.5rem var(--display); }
 .footer-brand p, .footer-column p { max-width: 360px; color: #c1c9c3; font-size: .85rem; }

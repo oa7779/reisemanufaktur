@@ -24,7 +24,10 @@
       if (!card.hidden) visible += 1;
     });
     if (count) {
-      count.textContent = `${visible} ${english ? (visible === 1 ? "travel idea" : "travel ideas") : (visible === 1 ? "Reiseidee" : "Reiseideen")}`;
+      const label = destination
+        ? (english ? (visible === 1 ? "travel idea" : "travel ideas") : (visible === 1 ? "Reiseidee" : "Reiseideen"))
+        : (english ? (visible === 1 ? "entry" : "entries") : (visible === 1 ? "Eintrag" : "Einträge"));
+      count.textContent = `${visible} ${label}`;
     }
     if (empty) empty.hidden = visible !== 0;
   };
